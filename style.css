@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+
+/*
+    Boot CSS
+*/
+.center{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.flex{display: flex;}
+
+.align-flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-flex-end{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/*
+    Fim Boot CSS
+*/
+header{
+    height: 70px;
+    background-color: #131921;
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.input-search{
+    padding: 0 10px;
+    width: 70%;
+    display: flex;
+}
+
+.input-search form{
+    display: flex;
+    width: 100%;
+}
+
+.input-search input[type=text]{
+    width: calc(100% - 40px);
+    height: 40px;
+}
+
+.input-search button{
+    width: 40px;
+    border: 0;
+    height: 40px;
+    background-color: #febd68;
+}
+
+.menu {
+    font-size: 12px;
+    margin: 8px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu:hover{
+    border-radius: 3px;
+    outline: 1px solid white;
+}
+
+.menu p{
+    white-space: nowrap;
+}
+
+/* Banners */
+
+.vitrine{
+    min-height: 700px;
+    width: 100%;
+    background-image: url('banner.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.box-vitrine{
+    position: relative;
+    top: 15px;
+    width: 22%;
+    height: 475px;
+    background-color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.box-vitrine a{
+    color: #069;
+    font-size: 13px;
+}
+
+.box-vitrine img{
+    width: 100%;
+
+}
+
